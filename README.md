@@ -11,3 +11,7 @@
 #无数开源项目开始迁移至GitHub，包括jQuery，PHP，Ruby等等。
 
 #常用Git命令
+
+git status
+git log --pretty=oneline
+git add --all
