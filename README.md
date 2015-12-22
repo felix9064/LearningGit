@@ -21,3 +21,4 @@ git reset
 git checkout -- <file>
 git reset HEAD <file>
 git diff
+git clone url
