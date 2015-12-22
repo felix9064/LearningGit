@@ -18,3 +18,6 @@ git commit -m "版本说明"
 git push origin master
 git reflog
 git reset
+git checkout -- <file>
+git reset HEAD <file>
+git diff
