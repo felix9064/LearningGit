@@ -16,3 +16,5 @@ git log --pretty=oneline
 git add --all
 git commit -m "版本说明"
 git push origin master
+git reflog
+git reset
