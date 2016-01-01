@@ -2,7 +2,7 @@
 
 #常用Git命令
 #git status
-git log --pretty=oneline
+#git log --pretty=oneline
 git add --all
 git commit -m "版本说明"
 git push origin master
