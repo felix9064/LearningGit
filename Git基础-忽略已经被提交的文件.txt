@@ -1,0 +1,10 @@
+如果文件已经被提交到Git版本库中了，使用.gitignore忽略是不起作用的。
+
+这时应该：
+1.从 Git 的数据库中删除对于该文件的追踪：
+git rm --cached logs/xx.log 删除单个文件
+git rm -r --cached CrazyJava/.idea/ 删除目录
+2.把对应的规则写入 .gitignore，让忽略真正生效；
+3.提交＋推送：git commit -m "We really don't want Git to track this anymore!"
+
+ 
