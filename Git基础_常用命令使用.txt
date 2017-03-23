@@ -1,0 +1,33 @@
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+git init
+
+git add readme.txt
+
+git commit -m "wrote a readme file"
+
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m "add 3 files."
+
+git status
+
+git diff readme.txt
+
+git add readme.txt
+git status
+git commit -m "add distributed"
+git status
+
+git log
+git log --pretty=oneline
+
+git reset --hard HEAD~1
+git log
+
+git reset --hard 206a4b48
+
+git reflog
+
+
