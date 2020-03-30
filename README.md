@@ -4,10 +4,10 @@
 ## 以上内容是在GitHub上面编辑的
 ### 现在我要通过自己本地编辑后再推送到远程GitHub库中
 
-#常用Git命令
-#git status
-#git log --pretty=oneline
-#git add --all
+### 常用Git命令
+*git status*
+*git log --pretty=oneline*
+*git add --all*
 git commit -m "版本说明"
 git push origin master
 git reflog
@@ -16,3 +16,6 @@ git checkout -- <file>
 git reset HEAD <file>
 git diff
 git clone url
+
+git pull
+
